@@ -1,13 +1,86 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: sans-serif;
+  background-color: blueviolet;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* .content{
+  display: flex;
+  flex-wrap: wrap;
 }
+.cart{
+  color: blue;
+  font-size: 30px;
+  margin: 10px;
+  background-color: rgb(236, 216, 190);
+  width: max-content;
+  padding: 20px;
+  border-radius: 20px;
+  font-weight: 700;
+  display: flex;
+  gap: 10px;
+
+}  */
+
+
+.karta{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+  
+}
+
+.kart_block{
+  margin: 30px;
+ border-radius: 30px;
+ background-color: darkkhaki;
+ padding: 10px;
+ width:min-content;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template:
+      "b b a" 80px
+      "b b c" auto
+      ;
+ gap: 10px;
+ align-items: center;
+ justify-content:flex-start;
+ 
+}
+.caption{
+  text-align: center;
+  margin: auto;
+  grid-area: a;
+}
+.block_text{
+  
+  width: 150px;
+  grid-area: c;
+  
+}
+.block_img{
+  height: 120px;
+  grid-area: b;
+  border-radius: 10px;
+
+}
+header{
+  display: flex;
+  justify-content:center;
+  margin-top: 50px;
+  
+
+}
+header>button{
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: chartreuse;
+  cursor: pointer;
+}
+header>button:hover{
+  background-color: forestgreen;
+}
+
+
+

@@ -1,0 +1,27 @@
+a{
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 25px;
+    color: rgb(60, 255, 0);
+    background-color: brown;
+    text-decoration: none;
+    
+}
+
+.kart{
+    display: flex;
+    margin: 20px;
+    flex-wrap:wrap;
+}
+.karta_block{
+    padding: 10px;
+    font-size: 20px;
+}
+.karta_block>button{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: orangered;
+}
