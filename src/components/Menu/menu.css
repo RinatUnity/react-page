@@ -11,9 +11,9 @@ a{
 }
 
 .kart{
-    display: flex;
+    /* display: flex; */
     margin: 20px;
-    flex-wrap:wrap;
+    /* flex-wrap:wrap; */
 }
 .karta_block{
     padding: 10px;

@@ -7,18 +7,15 @@ import About from "./pages/About";
 
 
 
-
 const App =()=>{ 
      
     return <BrowserRouter>
-    <Menu name="Меню" page="Страница слова"></Menu>
-        
+    <Menu name="Меню" page="Страница слова"></Menu>    
         <Routes>
             <Route path="/" element={<Home/>}></Route>           
             <Route path="/page/:name" element={<Page/>}></Route>
             <Route path="/about/:name" element={<About/>}></Route>
-        </Routes>
-       
+        </Routes>   
     </BrowserRouter> 
 }
 
